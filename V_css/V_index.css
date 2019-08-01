@@ -1,3 +1,4 @@
+
 .header_css{
   height: 64px;
   margin-bottom: 30px !important;
@@ -21,16 +22,59 @@ div.container{
 /******************************/
 @media only screen and (max-width: 1440px){
   .navbar-header a>img{
-    width: 250px;
+    width: 240px;
   } 
 }
 @media only all and (max-width: 992px) {
   .navbar-header a>img{
-    width: 200px !important;
+    width: 180px !important;
+    position: relative;
+    z-index: 100;
+  }
+  #Volley_nev ul li a{
+    padding: 15px 7px 15px 7px;
   }
   .navbar-header a{
-    padding-top: 13px;
-  } 
+    padding-top: 15px !important;
+  }
+  #content1_V {
+    float: left;
+    width: 364px;
+
+  }
+  #content2_V {
+    float: left;
+    width: 364px;
+  }
+  #content1_V_poto{
+    float: left;
+    width: 364px;
+    height: 240px !important;
+  }
+  #well_block1{
+    width: 750px;
+  }
+  #well_block2{
+    width: 750px;
+  }
+  #Volley_nev{
+    position: relative;
+    z-index: 1;
+  }
+  body{
+    width: 980px;
+  }
+  #myTab a{
+    font-weight: 700;
+    margin: 0px;
+    font-size: 10px;
+  }
+
+}/*넓이*/
+.dropdown-menu{
+  text-align: center;
+  border-top: rgb(128, 128, 128) 1px dashed !important;
+  border-bottom: rgb(128, 128, 128) 1px dashed !important;
 }
 .navbar-header a>img{
   width: 250px;
@@ -95,7 +139,7 @@ div.tab-pane{
   height: 246.6px;
 }
 #V_tab_content{
-  height: 155.6px;
+  height: 98px;
 }
 /****************************/
 
@@ -198,14 +242,39 @@ a:active{
 }
 
 #bottom_body{
-  width: 450px;
+  width: 647px;
   margin: 0 auto;
 }
 
 a.btn-danger{
-  color: #323232;
+  color: white;
 }
 #bottom_web{
   margin-top: 20px;
   margin-bottom: 40px;
+}
+/****************************/
+.mar3 ul{
+  padding-left: 0px;
+  margin-top: 25px;
+  list-style-type: square;
+}
+.mar3 ul li{
+  height: 40px;
+  width: 440px;
+  margin: 0 auto;
+}
+.mar3 ul li a{
+  height: 40px;
+  color: #555;
+  font-weight: 400;
+  text-decoration: none;
+}
+#myTab a{
+  font-weight: 700;
+  color: #555;
+}
+
+footer .cotainer-fluid{
+  padding: 0px;
 }
