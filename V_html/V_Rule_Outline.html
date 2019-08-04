@@ -53,17 +53,33 @@
             </nav><!--/Nav-->
         </div><!--/conainer-fluid-->
     </header><!--/header-->
-    <div class="web container">
-        <div class="sidenav">
-            <a href="#">Outline</a>
-            <a href="#">Rotation</a>
-            <a href="#">Goal</a>
-            <a href="#">Foul</a>
+    <div class="web container ">
+        <div id="sidebar">
+          <ul>
+            <li><a href="#">Outline</a></li>
+            <li><a href="#">Rotation</a></li>
+            <li><a href="#">Goal</a></li>
+            <li><a href="#">Foul</a></li>
+          </ul>
+      
+
         </div>
-        <main>
+        <main id="content">
             <div class="panel panel-default bakcol">
                 <div class="panel-body" id="Rule_outline_main">
-                
+                  <div id="Outline_block1">
+                    <h1>Outline</h1>
+                    <p>현대 프로 배구는 6인제로만 운영한다. 9인제 배구도 있지만, 6인제 배구에 밀려 공식 경기에서는 이미 자취를 감췄다. 현재 일반인 사이에서 사회인 체육으로만 운영되고 있습니다.
+                       본래 9인제와 6인제는 인원수 말고도 규칙에서 다른 점이 굉장히 많았는데, 6인제 배구의 계속된 규칙 개정으로 지금은 많이 비슷해졌다.</p>
+                  </div>
+                  <div id="Outline_block2">
+                      <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';"> 
+                          <h1>More+</h1>
+                          </a><div style="DISPLAY: none">
+                          내용
+                          </div>
+                  </div>
+                      
                 </div>
             </div>
         </main>
