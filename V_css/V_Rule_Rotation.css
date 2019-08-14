@@ -3,6 +3,12 @@
     width:255px;
     height: 330px;
 }
+#content{
+    height: 606px !important;
+}
+#Rule_outline_main{
+    height: 580px !important;
+}
 #Outline_block1 p{
     padding: 5px 10px 5px 10px;
     width: 70%;
@@ -21,12 +27,11 @@
         position: relative;
         top: -140px;
         left: 10px;
-
     }
     #Rule_outline_main{
-        height: 630px;
+        height: 640px !important;
     }
     #content{
-        height: 656px;
+        height: 666px !important;
     }
 }

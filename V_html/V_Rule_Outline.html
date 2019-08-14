@@ -124,6 +124,8 @@
             document.getElementById("more_").style.display ='none';
             document.getElementById("content").style.height = '626px';
             document.getElementById("Rule_outline_main").style.height = '600px';
+            var width_size = window.outerWidth;
+              var windowWidth = $( window ).width();
             $(window).resize(function() {  
               $("#content").css("height","626px");
              $("#Rule_outline_main").css("height","600px");
