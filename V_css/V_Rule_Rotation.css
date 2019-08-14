@@ -1,0 +1,32 @@
+#rotation_img{
+    float: left;
+    width:255px;
+    height: 330px;
+}
+#Outline_block1 p{
+    padding: 5px 10px 5px 10px;
+    width: 70%;
+    float: left;
+}
+#small_fault{
+    font-size: 12px;
+}
+@media only all and (max-width: 992px) {
+    #Outline_block1 p{
+        padding: 5px 0px 5px 10px;
+        width:59.8%;
+    }
+    #Outline_block1 #small_fault{
+        width: 240px;
+        position: relative;
+        top: -140px;
+        left: 10px;
+
+    }
+    #Rule_outline_main{
+        height: 630px;
+    }
+    #content{
+        height: 656px;
+    }
+}

@@ -62,5 +62,9 @@
     }
     #content{
       width: 750px;
+      height: 676px;
     }
+    #Rule_outline_main{
+      height: 650px;
+  }
   }
