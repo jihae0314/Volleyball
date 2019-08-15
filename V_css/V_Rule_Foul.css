@@ -1,0 +1,23 @@
+#Outline_block1 ul{
+    padding: 0px;
+    list-style:none;
+}
+#Outline_block1 ul li{
+    margin: 15px 5px 15px 5px;
+}
+#content{
+    height: 591px !important;
+}
+#Rule_outline_main{
+    height: 565px !important;
+}
+#Outline_block1{
+    padding-top:10px;
+}
+#Outline_block1 table{
+    font-size: 12px;
+}
+#Outline_block1 td{
+    padding: 5px 15px 5px 15px;
+    border-bottom: 1px solid rgb(119, 119, 119);
+}

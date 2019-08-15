@@ -1,0 +1,19 @@
+#Outline_block1{
+    height: 180px;
+    margin-top: 90px;
+}
+#Outline_block1 p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+#Outline_block1 h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#content{
+    height: 536px !important;
+}
+#Rule_outline_main{
+    height: 510px !important;
+}
