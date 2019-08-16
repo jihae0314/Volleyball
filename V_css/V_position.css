@@ -1,0 +1,89 @@
+.bak div.container-fulid{
+    height: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+.bak div.container-fulid h1{
+    text-align: center;
+}
+hr{
+    background-color: rgb(209, 209, 209) !important;
+    border-color: rgb(209, 209, 209) !important;
+}
+#position_block{
+    width: 80% !important;
+    margin: 0 auto;
+    height: 63.3vh;
+    padding: 68px 50px 50px 50px;
+}
+#position_block img{
+    float: left;
+    width: 430px;
+    margin-left: 20px;
+    height: 320px;
+}
+#left_block{
+    float: left;
+    width: 50%;
+    padding: 40px 20px 20px 30px;
+}
+
+@media only all and (max-width: 1270px) {
+    #position_block img{
+        float: left;
+        width: 380px;
+        height: 290px;
+    }
+    #position_block{
+        padding: 80px 50px 50px 50px;
+    }
+    #left_block{
+        padding: 20px 20px 20px 30px;
+    }
+}
+
+@media only all and (max-width: 1150px) {
+    #position_block img{
+        float: left;
+        width: 320px;
+        height: 240px;
+    }
+    #position_block{
+        padding: 100px 50px 50px 50px;
+    }
+    #left_block{
+        padding: 10px 20px 20px 30px;
+    }
+}
+@media only all and (max-width: 992px) {
+    #position_block img{
+        float: left;
+        width: 320px;
+        height: 240px;
+    }
+    #position_block{
+        padding: 100px 50px 50px 50px;
+    }
+    #left_block{
+        padding: 10px 20px 20px 30px;
+    }
+}
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.35);
+	font-size: 12px;
+	margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 16px;
+}
