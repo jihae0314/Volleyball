@@ -1,0 +1,117 @@
+@media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }  
+  }
+
+main .container{
+    width: 1100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main{
+    background-color: white;
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 35px;
+}
+.tabs { 
+  display: flex; 
+  flex-wrap: wrap;     
+} 
+.tabs label { 
+  width:50%; 
+  height: 80px;
+  order: 1; 
+  display: block; 
+  padding:10px 0px; 
+  text-align:center; 
+  line-height: 63px;
+  cursor: pointer; 
+  background: white;
+  font-weight: bold; 
+  transition: background ease 0.2s; 
+  font-size: 25px !important;
+  color: #555;
+  border: #878383 1px dashed;
+} 
+/*박스배경*/ 
+.tabs .tab { 
+  order: 99; 
+  flex-grow: 1; 
+  width: 100%; 
+  display: none; 
+  padding: 1rem; 
+  background: white;
+
+  padding: 20px 40px 20px 40px;
+} 
+.tabs input[type="radio"] { 
+  display: none; 
+} 
+
+/*탭 눌렀을때 컬러*/ 
+.tabs input[type="radio"]:checked + label { 
+  background:#F06E6E;
+  color: white;
+  border: none;
+} 
+.tabs input[type="radio"]:checked + label + .tab { 
+  display: block; 
+}
+
+
+/****************************************/
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.35);
+	font-size: 12px;
+	margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 16px;
+}
+td{
+  padding: 10px;
+  color: #555;
+}
+.tab_name{
+  width: 120px;
+  text-align: center;
+  border-right: 1px solid #c2c2c2;
+  min-height: 50px !important;
+  max-height: 80px;
+  padding: 20px;
+  font-weight: 800;
+  color: #555;
+}
+
+.tab_content{
+  border-bottom: 1px solid #c2c2c2;
+  min-height: 50px !important;
+  max-height: 80px;
+}
+.tab_content2{
+  min-height: 50px !important;
+  max-height: 80px;
+}
+/*****************************/
+@media only all and (max-width: 1200px) {
+  main .container{
+    width: 980px;
+  }
+}
+@media only all and (max-width: 992px) {
+  main .container{
+    width: 940px;
+  }
+}
